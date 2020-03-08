@@ -1,7 +1,7 @@
 ---
 template: DefaultPage
 slug: about
-title: About Us
+title: About
 featuredImage: 'https://ucarecdn.com/33c52f03-da4f-4185-a9c6-7bae0991d7c0/'
 meta:
   title: ''
