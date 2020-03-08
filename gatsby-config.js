@@ -8,6 +8,8 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
+  // March 2020  Hywel - Add Google Analytics
+  //https://aiki-developer.com/blog/gatsby-google-analytics
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
