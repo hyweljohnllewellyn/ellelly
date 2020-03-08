@@ -17,10 +17,10 @@ meta:
   description: ''
   title: Contact Ellelly
 ---
-We are currently in the process of researching the most suitable materials and suppliers for our products to balance quality, sustainability and cost effectiveness. 
+We are currently:
 
-We are registering the brand, setting up our website and creating the limited company 
-
-Liaising with industry professionals to becoming as knowledgeable as possible about the most innovative new fabric and supply technologies available.
+* researching the most suitable materials and suppliers for our products to balance quality, sustainability and cost effectiveness. 
+* registering the brand, setting up our website and creating the limited company.
+* liaising with industry professionals to becoming as knowledgeable as possible about the most innovative new fabric and supply technologies available.
 
 Contact us to find out more, or just say hello!
