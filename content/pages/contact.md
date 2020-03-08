@@ -1,7 +1,7 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Ellely
+title: Contact Ellelly
 featuredImage: 'https://ucarecdn.com/ec6cbe46-645e-4234-9a85-f43c50e45fc9/'
 subtitle: >-
   ...if you would like to find out more about our period underwear for girls
@@ -10,9 +10,9 @@ address: 'Hetfordshire, UK'
 phone: please use this form or email us
 email: hello@ellelly.com
 locations:
-  - mapLink: ''
-    lat: '51.795971'
+  - lat: '51.795971'
     lng: '-0.078880'
+    mapLink: ''
 meta:
   description: ''
   title: Contact Ellelly
