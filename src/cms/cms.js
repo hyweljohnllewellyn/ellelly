@@ -2,6 +2,10 @@ import React from 'react'
 import CMS from 'netlify-cms-app'
 import './cms-utils'
 
+// https://www.netlifycms.org/blog/2019/07/netlify-cms-gatsby-plugin-4-0-0#using-media-libraries-with-netlify-cms-app
+import uploadcare from 'netlify-cms-media-library-uploadcare';
+CMS.registerMediaLibrary(uploadcare);
+
 import { HomePageTemplate } from '../templates/HomePage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
