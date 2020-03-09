@@ -3,9 +3,8 @@ import React from 'react'
 import './Form.css'
 
 export default ({
-  name = 'Ellelly Contact Form',
+  name = 'contact',
   subject = 'enquiry from ellilly.com website', // optional subject of the notification email
-  action = ''
 }) => (
   <form
     className='Form'

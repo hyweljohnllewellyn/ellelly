@@ -40,7 +40,7 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimple name="Contact" />
+          <FormSimple name="contact" />
         </div>
       </div>
     </section>
