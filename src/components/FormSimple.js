@@ -4,15 +4,16 @@ import './Form.css'
 
 export default ({
   name = 'Simple Form',
-  subject = '', // optional subject of the notification email
+  subject = 'enquiry from ellilly.com website', // optional subject of the notification email
   action = ''
 }) => (
   <form
     className='Form'
     name={name}
     action={action}
-    data-netlify=''
-    data-netlify-honeypot='_gotcha'
+    data-netlify="true"
+    data-netlify-honeypot="_gotcha"
+    netlify-recaptcha="true"
   >
     <label className='Form--Label'>
       <input
@@ -22,6 +23,7 @@ export default ({
         name='name'
         required
       />
+      <span>Name</span>
     </label>
     <label className='Form--Label'>
       <input
@@ -32,21 +34,6 @@ export default ({
         required
       />
     </label>
-    <label className='Form--Label has-arrow'>
-      <select
-        className='Form--Input Form--Select'
-        name='type'
-        defaultValue='Type of Enquiry'
-        required
-      >
-        <option disabled hidden>
-          Type of Enquiry
-        </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
-      </select>
-    </label>
     <label className='Form--Label'>
       <textarea
         className='Form--Input Form--Textarea'
@@ -54,15 +41,16 @@ export default ({
         name='message'
         rows='10'
         required
-      />
+      />Message
     </label>
     <input type='text' name='_gotcha' style={{ display: 'none' }} />
     {!!subject && <input type='hidden' name='subject' value={subject} />}
     <input type='hidden' name='form-name' value={name} />
+    <div data-netlify-recaptcha="true"></div>
     <input
       className='Button Form--SubmitButton'
       type='submit'
-      value='Enquire'
+      value='Send'
     />
   </form>
 )

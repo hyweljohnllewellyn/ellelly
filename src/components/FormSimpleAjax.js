@@ -7,8 +7,8 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
-    subject: '', // optional subject of the notification email
+    name: 'Ellelly Contact Form',
+    subject: 'enquiry from ellilly.com website', // optional subject of the notification email
     action: '',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
@@ -66,8 +66,9 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
-          netlify-recaptcha=""
+          data-netlify="true"
+          data-netlify-honeypot="_gotcha"
+          netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -128,16 +129,16 @@ class Form extends React.Component {
             />
             <span>Message</span>
           </label>
-          <div
-            className="g-recaptcha"
-            data-sitekey="6Lcmu98UAAAAAKZZ0QM5GJJnTvpYZT2FENDiD9fe"
-          />
+          <div data-netlify-recaptcha="true"></div>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
+          <input type='text' name='_gotcha' style={{ display: 'none' }} />
+
+
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Send"
             disabled={this.state.disabled}
           />
         </form>
