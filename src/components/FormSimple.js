@@ -14,6 +14,7 @@ export default ({
     data-netlify="true"
     data-netlify-honeypot="_gotcha"
     netlify-recaptcha="true"
+     method="post"
   >
   <div className="Form--Group">
     <label className="Form--Label">
