@@ -65,6 +65,7 @@ export default function Contact() {
               placeholder="Firstname"
               name="firstname"
               required
+              onChange={handleChange}
             />
             <span>Firstname</span>
           </label>
@@ -75,6 +76,7 @@ export default function Contact() {
               placeholder="Lastname"
               name="lastname"
               required
+              onChange={handleChange}
             />
             <span>Lastname</span>
           </label>
@@ -86,6 +88,7 @@ export default function Contact() {
             placeholder="Email"
             name="emailAddress"
             required
+            onChange={handleChange}
           />
           <span>Email address</span>
         </label>
@@ -96,6 +99,7 @@ export default function Contact() {
             name="message"
             rows="10"
             required
+            onChange={handleChange}
           />
           <span>Message</span>
         </label>
