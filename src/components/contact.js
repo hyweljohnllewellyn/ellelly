@@ -32,7 +32,6 @@ export default function Contact() {
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
       .catch((error) => alert(error))
   }
 
@@ -45,7 +44,6 @@ export default function Contact() {
       className="Form"
         name="contact"
         method="post"
-        action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
@@ -62,12 +60,12 @@ export default function Contact() {
             <input
               className="Form--Input Form--InputText"
               type="text"
-              placeholder="Firstname"
-              name="firstname"
+              placeholder="Name"
+              name="name"
               required
               onChange={handleChange}
             />
-            <span>Firstname</span>
+            <span>Name</span>
           </label>
         </div>
         <label className="Form--Label">
@@ -79,7 +77,7 @@ export default function Contact() {
             required
             onChange={handleChange}
           />
-          <span>Emailxx address</span>
+          <span>Email address</span>
         </label>
         <label className="Form--Label">
           <textarea
