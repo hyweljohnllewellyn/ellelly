@@ -32,6 +32,9 @@ export default function Contact() {
         ...state,
       }),
     })
+
+
+      .then(() => navigate(form.getAttribute('action')))
       .catch((error) => alert(error))
   }
 
@@ -44,6 +47,7 @@ export default function Contact() {
       className="Form"
         name="contact"
         method="post"
+        action="/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
