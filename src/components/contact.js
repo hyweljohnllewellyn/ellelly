@@ -6,16 +6,6 @@ import Recaptcha from 'react-google-recaptcha'
 import { navigate } from 'gatsby-link'
 import './Form.css'
 
-const RECAPTCHA_KEY = process.env.GOOGLE_RECAPTCHA_KEY
-if (typeof RECAPTCHA_KEY === 'undefined') {
-  throw new Error(`
-  Env var GOOGLE_RECAPTCHA_KEY is undefined!
-  You probably forget to set it in your Netlify build environment variables.
-  Make sure to get a Recaptcha key at https://www.netlify.com/docs/form-handling/#custom-recaptcha-2-with-your-own-settings
-  Note this demo is specifically for Recaptcha v2
-  `)
-}
-
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -24,7 +14,6 @@ function encode(data) {
 
 export default function Contact() {
   const [state, setState] = React.useState({})
-   const recaptchaRef = React.createRef()
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value })
@@ -34,13 +23,11 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
-    const recaptchaValue = recaptchaRef.current.getValue()
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
-        'g-recaptcha-response': recaptchaValue,
         ...state,
       }),
     })
@@ -107,7 +94,6 @@ export default function Contact() {
           />
           <span>Message</span>
         </label>
-        <Recaptcha ref={recaptchaRef} sitekey={RECAPTCHA_KEY} />
         <input type="hidden" name="form-name" value="contactform" />
         <input
           className="Button Form--SubmitButton"
