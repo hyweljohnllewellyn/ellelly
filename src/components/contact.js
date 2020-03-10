@@ -69,17 +69,6 @@ export default function Contact() {
             />
             <span>Firstname</span>
           </label>
-          <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Lastname"
-              name="lastname"
-              required
-              onChange={handleChange}
-            />
-            <span>Lastname</span>
-          </label>
         </div>
         <label className="Form--Label">
           <input
@@ -90,7 +79,7 @@ export default function Contact() {
             required
             onChange={handleChange}
           />
-          <span>Email address</span>
+          <span>Emailxx address</span>
         </label>
         <label className="Form--Label">
           <textarea
