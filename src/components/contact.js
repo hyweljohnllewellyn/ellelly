@@ -6,6 +6,7 @@ import Recaptcha from 'react-google-recaptcha'
 import { navigate } from 'gatsby-link'
 import './Form.css'
 
+
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -18,6 +19,7 @@ export default function Contact() {
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value })
   }
+
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -36,8 +38,11 @@ export default function Contact() {
 
   return (
     <Fragment>
-      <h1>Contact</h1>
+      <Helmet>
+        <script src="https://www.google.com/recaptcha/api.js" />
+      </Helmet>
       <form
+      className="Form"
         name="contact"
         method="post"
         action="/thanks/"
@@ -52,30 +57,54 @@ export default function Contact() {
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <p>
-          <label>
-            Your name:
-            <br />
-            <input type="text" name="name" onChange={handleChange} />
+        <div className="Form--Group">
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Firstname"
+              name="firstname"
+              required
+            />
+            <span>Firstname</span>
           </label>
-        </p>
-        <p>
-          <label>
-            Your email:
-            <br />
-            <input type="email" name="email" onChange={handleChange} />
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Lastname"
+              name="lastname"
+              required
+            />
+            <span>Lastname</span>
           </label>
-        </p>
-        <p>
-          <label>
-            Message:
-            <br />
-            <textarea name="message" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+        </div>
+        <label className="Form--Label">
+          <input
+            className="Form--Input Form--InputText"
+            type="email"
+            placeholder="Email"
+            name="emailAddress"
+            required
+          />
+          <span>Email address</span>
+        </label>
+        <label className="Form--Label">
+          <textarea
+            className="Form--Input Form--Textarea Form--InputText"
+            placeholder="Message"
+            name="message"
+            rows="10"
+            required
+          />
+          <span>Message</span>
+        </label>
+        <input type="hidden" name="form-name" value="contactform" />
+        <input
+          className="Button Form--SubmitButton"
+          type="submit"
+          value="Send"
+        />
       </form>
     </Fragment>
   )
