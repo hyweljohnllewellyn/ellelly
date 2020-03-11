@@ -10,8 +10,10 @@ subtitle: |-
 
   that are practical, comfortable, sustainable and affordable.
 meta:
-  description: Practical, comfortable, sustainable and affordable replacements for single use tampons, pads, towels and cups for girls 8 to 16 years old  
-  title:  Reusable Pants for Girls with Periods
+  description: >-
+    Practical, comfortable, sustainable and affordable replacements for single
+    use tampons, pads, towels and cups for girls 8 to 16 years old
+  title: Reusable Pants for Girls with Periods
 ---
 # Our Vision
 
@@ -21,7 +23,7 @@ A world where reusable period products are the cost effective, practical option.
 
 To re-define period products by making sustainable, practical, comfortable, durable and affordable reusable period pants for girls the norm.
 
-* DESIGN affordable, durable, practical, comfortable and totally sustainable period underwear for 8-14 year old girls using the best modern practices and materials
+* DESIGN affordable, durable, practical, comfortable and totally sustainable period underwear for 8-16 year old girls using the best modern practices and materials
 * PRODUCE and make available to the general population at low cost via major sellers as an affordable alternative to disposable and less sustainable options
 * SUPPLY to local authority schools and charities at minimal cost as a practical and highly economical alternative to disposable products
 
