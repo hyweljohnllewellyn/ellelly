@@ -33,7 +33,7 @@ To re-define period products by making sustainable, practical, comfortable, dura
 * **Manufacturing** techniques using modern resources and technology
 * **Practical** leak proof design for day and night based on years of testing and knowledge of the needs of young women
 * **Comfortable** designs for young ladies when they are feeling most vulnerable
-* **Reusable** protection to maximise sustainability and affordability while being easily washable
+* **Reusable** protection to maximise sustainability while being easily washable
 * **Affordable** fair trade materials and manufacturing sourced efficiently to keep cost to the consumer as low as possible making these products a viable and financially attractive alternative to disposable and less sustainable options
 
 ## ...are the heart of out work
