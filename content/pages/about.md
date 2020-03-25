@@ -8,7 +8,7 @@ meta:
 ---
 # Our Status : Product Development
 
-Ellelly Ltd is an innovative new registerd company passionate about the need for new vision and energy ready to fulfil the need at a time when our world community is ready to act.
+Ellelly Ltd is an innovative company passionate about the need for new vision and energy ready to fulfil the need at a time when our world community is ready to act.
 
 # Our Partners
 
