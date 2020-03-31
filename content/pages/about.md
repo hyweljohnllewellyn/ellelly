@@ -4,7 +4,9 @@ slug: about
 title: About
 featuredImage: 'https://ucarecdn.com/33c52f03-da4f-4185-a9c6-7bae0991d7c0/'
 meta:
-  title: ''
+description: >-
+    Reusable products to replaceme single use tampons, pads, towels  for teens
+  title: 'Sustainable Period Underwear for Teens'
 ---
 # Our Status : Product Development
 

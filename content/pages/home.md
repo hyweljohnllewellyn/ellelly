@@ -4,16 +4,12 @@ slug: ''
 title: Ellelly
 featuredImage: 'https://ucarecdn.com/ca8fc208-001b-4343-a3d1-3e5e13e5ddfe/'
 subtitle: |-
-  The  self-sufficient, durable and reusable period pants
-
-  for 8-16 year old girls
-
-  that are practical, comfortable, sustainable and affordable.
+  The  self-sufficient, durable and reusable period pants for 8-16 year old girls that are practical, comfortable, sustainable and affordable.
 meta:
   description: >-
     Practical, comfortable, sustainable and affordable replacements for single
-    use tampons, pads, towels and cups for girls 8 to 16 years old
-  title: Reusable Pants for Girls with Periods
+    use tampons, pads, towels and cups for girls and teens 8 to 16 years old
+  title: Reusable Period Pants for Girls and Teens
 ---
 # Our Vision
 

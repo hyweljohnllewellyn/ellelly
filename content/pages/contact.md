@@ -14,7 +14,7 @@ locations:
     lng: '-0.078880'
     mapLink: ''
 meta:
-  description: ''
+  description: 'contact us to find out about reusable period pants for teens'
   title: Contact Ellelly
 ---
 We are currently:
