@@ -14,7 +14,7 @@ subtitle: >-
 meta:
   description: Practical, comfortable, sustainable and affordable replacements for
     single use tampons, pads, towels and cups for all menstruating people.
-  title: Reusable Period Pants for All Menstruating People
+  title: Reusable Period Pants and Pads for All Menstruating People
 ---
 # Our Vision
 
