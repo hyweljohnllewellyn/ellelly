@@ -37,4 +37,4 @@ To re-define period products by making sustainable, practical, comfortable, dura
 * **Reusable** protection to maximise sustainability while being easily washable
 * **Affordable** fair trade materials and manufacturing sourced efficiently to keep cost to the consumer as low as possible making these products a viable and financially attractive alternative to disposable and less sustainable options
 
-## ...are the heart of out work
+   **  ...are all the heart of out work**
