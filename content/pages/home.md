@@ -3,9 +3,14 @@ template: HomePage
 slug: ""
 title: Ellelly
 featuredImage: https://ucarecdn.com/ca8fc208-001b-4343-a3d1-3e5e13e5ddfe/
-subtitle: The  self-sufficient, durable and reusable period pants for all
-  menstruating people that are practical, comfortable, sustainable and
-  affordable.
+subtitle: >-
+  ***Your Total Period Solution***
+
+
+  The  self-sufficient, durable and reusable period pants and pads that are practical, comfortable, sustainable and affordable for all menstruating people.  
+
+
+  Everything you need and want for your whole cycle, to meet the needs of every flow.
 meta:
   description: Practical, comfortable, sustainable and affordable replacements for
     single use tampons, pads, towels and cups for all menstruating people.
