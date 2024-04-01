@@ -3,7 +3,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Ellelly',
-    siteUrl: 'https://www.ellelly.com'
+    siteUrl: 'https://ellelly.netlify.app'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -61,6 +61,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
+    ignore: [`**/\.*`], // ignore files starting with a dot
         icon: `${__dirname}/static/images/favicon.ico` // This path is relative to the root of the site.
       }
     },
